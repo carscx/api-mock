@@ -2,7 +2,7 @@
   "posts": [{ "id": 1, "title": "json-server", "author": "typicode" }],
   "comments": [{ "id": 1, "body": "some comment", "postId": 1 }],
   "profile": { "name": "typicode" },
-  "auth/login": {
+  "authLogin": {
     "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI5NmFhMWVjZi02MzIyLTRlMGItYjdhMC0zMGFkYmNjN2IxYWMiLCJleHBpcmVzSW4iOiIyaCIsImp0aSI6IjIxYjc1NGRkLWIxZjYtNGU4Zi05NWVlLTAwYTJhZjhmYzM2NiIsImlhdCI6MTcxNzU5MDQ3NywiZXhwIjoxNzE3NjE5Mjc3fQ.W24bBZcQH2r0zYLu1QQb27ERftoZtlozCSf4beGYwBo",
     "data": {
       "id": "96aa1ecf-6322-4e0b-b7a0-30adbcc7b1ac",
