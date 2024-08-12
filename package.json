@@ -1,23 +1,36 @@
 {
-  "name": "json-server-starter",
+  "name": "api-mock",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "type": "module",
+  "main": "src/index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/peterrhodesdev/json-server-starter.git"
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx -r tsconfig-paths/register src/index.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/peterrhodesdev/json-server-starter/issues"
-  },
-  "homepage": "https://github.com/peterrhodesdev/json-server-starter#readme",
   "dependencies": {
-    "json-server": "^0.16.3"
+    "bcryptjs": "^2.4.3",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/node": "^22.2.0",
+    "@types/uuid": "^10.0.0",
+    "nodemon": "^3.1.4",
+    "ts-loader": "^9.5.1",
+    "ts-node-dev": "^2.0.0",
+    "tsconfig-paths": "^4.2.0",
+    "tsx": "^4.17.0",
+    "typescript": "^5.5.4",
+    "webpack": "^5.93.0",
+    "webpack-cli": "^5.1.4"
   }
 }

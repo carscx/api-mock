@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", // Define la versión de ECMAScript objetivo
+    "module": "ESNext", // Define el sistema de módulos como ESNext
+    "moduleResolution": "node", // Resuelve módulos como lo hace Node.js
+    "outDir": "./dist", // Directorio de salida para los archivos compilados
+    "rootDir": "./src", // Directorio raíz de los archivos de entrada
+    "baseUrl": "./src", // Directorio raíz de los archivos de entrada
+    "strict": true, // Habilita todas las verificaciones de tipo estrictas
+    "esModuleInterop": true, // Habilita la interoperabilidad con CommonJS
+    "skipLibCheck": true, // Omite la comprobación de tipos de archivos de declaración
+    "forceConsistentCasingInFileNames": true, // Fuerza el uso coherente de mayúsculas y minúsculas en los nombres de archivo
+    "resolveJsonModule": true, // Permite importar archivos JSON como módulos
+    "isolatedModules": true // Asegura que cada archivo sea tratado como un módulo independiente
+  },
+  "paths": {
+    "@routes/*": ["routes/*"],
+    "@controllers/*": ["controllers/*"],
+    "@middlewares/*": ["middlewares/*"],
+    "@models/*": ["models/*"],
+    "@utils/*": ["utils/*"],
+    "@data/*": ["data/*"]
+  },
+  "include": ["src"], // Incluye todos los archivos en la carpeta src
+  "exclude": ["node_modules", "dist"] // Excluye node_modules y la carpeta de salida
+}
